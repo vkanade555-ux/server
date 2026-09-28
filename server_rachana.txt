@@ -1,0 +1,197 @@
+### वातावरण
+Linux instance-20260920-1419 6.17.0-1020-oracle #20-Ubuntu SMP Sat Jul 25 00:58:05 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+Python 3.12.3
+Description:	Ubuntu 24.04.5 LTS
+
+### आकार + जागा
+260M	/home/ubuntu/trading-bot
+17M	/home/ubuntu/trading-bot-forex
+258M	/home/ubuntu/trading-bot/venv
+17M	/home/ubuntu/trading-bot-forex/venv
+/dev/sda1        45G  3.1G   42G   7% /
+
+### ~/trading-bot — वरचे (venv वगळून)
+drwxrwxr-x 4 ubuntu ubuntu   4096 2026-09-28 17:08 .
+drwxr-x--- 7 ubuntu ubuntu   4096 2026-09-28 17:08 ..
+-rw------- 1 ubuntu ubuntu     94 2026-09-20 11:28 .env
+drwxrwxr-x 2 ubuntu ubuntu   4096 2026-09-26 19:36 __pycache__
+-rw-r--r-- 1 ubuntu ubuntu  17157 2026-09-28 17:08 alerts_sent.json
+-rw-r--r-- 1 ubuntu ubuntu     31 2026-09-26 11:17 alerts_sent.json.bak
+-rw-rw-r-- 1 ubuntu ubuntu  26038 2026-09-24 08:15 hiravi_2x.py
+-rw-rw-r-- 1 ubuntu ubuntu 122567 2026-09-24 08:26 hiravi_2x_30din.csv
+-rw-rw-r-- 1 ubuntu ubuntu  62510 2026-09-27 13:25 live_scanner.py
+-rw-rw-r-- 1 ubuntu ubuntu  58794 2026-09-27 13:17 live_scanner_juna_20260927_1317.py
+-rw-rw-r-- 1 ubuntu ubuntu  58768 2026-09-27 13:24 live_scanner_juna_20260927_1324.py
+-rw-rw-r-- 1 ubuntu ubuntu  21604 2026-09-23 18:42 maagche_setups.py
+-rw-rw-r-- 1 ubuntu ubuntu  20891 2026-09-23 18:47 maagche_setups_3din.csv
+-rw-rw-r-- 1 ubuntu ubuntu 330161 2026-09-24 12:59 navin_30din.csv
+-rw-rw-r-- 1 ubuntu ubuntu    334 2026-09-24 21:53 tin_30din.csv
+-rw-rw-r-- 1 ubuntu ubuntu  36255 2026-09-24 22:09 tin_30din.py
+-rw-r--r-- 1 ubuntu ubuntu      2 2026-09-26 11:00 tin_candle_alerts_sent.json
+-rw-rw-r-- 1 ubuntu ubuntu  37834 2026-09-24 14:04 tin_candle_scanner.py
+-rwxrwxr-x 1 ubuntu ubuntu  11465 2026-09-24 14:33 tin_monitor.sh
+-rw-rw-r-- 1 ubuntu ubuntu 886321 2026-09-26 21:01 v7_30din.csv
+-rwxrwxr-x 1 ubuntu ubuntu  31882 2026-09-26 19:35 v7_30din.py
+-rwxrwxr-x 1 ubuntu ubuntu  18973 2026-09-26 11:34 v7_monitor.sh
+drwxrwxr-x 5 ubuntu ubuntu   4096 2026-09-20 09:45 venv
+
+### ~/trading-bot-forex — वरचे (venv वगळून)
+drwxrwxr-x 4 ubuntu ubuntu  4096 2026-09-28 17:02 .
+drwxr-x--- 7 ubuntu ubuntu  4096 2026-09-28 17:08 ..
+-rw------- 1 ubuntu ubuntu    95 2026-09-28 09:23 .env
+drwxrwxr-x 2 ubuntu ubuntu  4096 2026-09-28 11:58 __pycache__
+-rw-rw-r-- 1 ubuntu ubuntu 19178 2026-09-28 11:58 ek_jodi_tapas.py
+-rwxrwxr-x 1 ubuntu ubuntu 14779 2026-09-28 12:03 ek_jodi_thet.py
+-rw-r--r-- 1 ubuntu ubuntu   795 2026-09-28 17:02 forex_alerts_sent.json
+-rw-r--r-- 1 ubuntu ubuntu    31 2026-09-28 09:48 forex_alerts_sent.json.bak
+-rwxrwxr-x 1 ubuntu ubuntu 22720 2026-09-28 11:35 forex_monitor.sh
+-rwxrwxr-x 1 ubuntu ubuntu 87980 2026-09-28 10:16 forex_scanner.py
+drwxrwxr-x 5 ubuntu ubuntu  4096 2026-09-28 09:19 venv
+
+### ~/trading-bot — सगळ्या फाइल्स (आकार · नाव) · venv वगळून
+        94  .env
+     17157  alerts_sent.json
+        31  alerts_sent.json.bak
+     26038  hiravi_2x.py
+    122567  hiravi_2x_30din.csv
+     62510  live_scanner.py
+     58794  live_scanner_juna_20260927_1317.py
+     58768  live_scanner_juna_20260927_1324.py
+     21604  maagche_setups.py
+     20891  maagche_setups_3din.csv
+    330161  navin_30din.csv
+       334  tin_30din.csv
+     36255  tin_30din.py
+         2  tin_candle_alerts_sent.json
+     37834  tin_candle_scanner.py
+     11465  tin_monitor.sh
+    886321  v7_30din.csv
+     31882  v7_30din.py
+     18973  v7_monitor.sh
+
+### ~/trading-bot-forex — सगळ्या फाइल्स (आकार · नाव) · venv वगळून
+        95  .env
+     19178  ek_jodi_tapas.py
+     14779  ek_jodi_thet.py
+       795  forex_alerts_sent.json
+        31  forex_alerts_sent.json.bak
+     22720  forex_monitor.sh
+     87980  forex_scanner.py
+
+### venv ची फक्त ओळख (आकार + फाइलसंख्या)
+/home/ubuntu/trading-bot/venv : 8526 फाइल्स · 258M
+/home/ubuntu/trading-bot-forex/venv : 1123 फाइल्स · 17M
+
+### लागण्या (systemd) — फाइल्स
+-rw-r--r--  1 root root  448 2026-09-26 11:17 binance-scanner.service
+-rw-r--r--  1 root root  444 2026-09-21 13:19 binance-scanner.service.bak
+-rw-r--r--  1 root root  182 2026-09-28 11:36 forex-digest.service
+-rw-r--r--  1 root root  202 2026-09-28 11:36 forex-digest.timer
+-rw-r--r--  1 root root  222 2026-09-28 11:36 forex-monitor.service
+-rw-r--r--  1 root root  176 2026-09-28 11:36 forex-monitor.timer
+-rw-r--r--  1 root root  478 2026-09-28 09:48 forex-scanner.service
+drwxr-xr-x  2 root root 4096 2026-08-22 11:53 mdmonitor.service.wants
+-rw-r--r--  1 root root  207 2026-09-26 11:35 scanner-digest.timer
+-rw-r--r--  1 root root  218 2026-09-26 11:35 scanner-monitor.service
+-rw-r--r--  1 root root  181 2026-09-26 11:35 scanner-monitor.timer
+-rw-r--r--  1 root root  517 2026-09-24 14:15 tin-candle-scanner.service
+-rw-r--r--  1 root root  189 2026-09-24 14:34 tin-digest.service
+-rw-r--r--  1 root root  204 2026-09-24 14:34 tin-digest.timer
+-rw-r--r--  1 root root  215 2026-09-24 14:34 tin-monitor.service
+-rw-r--r--  1 root root  179 2026-09-24 14:34 tin-monitor.timer
+
+### लागण्या — वेळापत्रक (timers)
+NEXT                            LEFT LAST                               PASSED UNIT                           ACTIVATES
+Mon 2026-09-28 17:10:00 UTC 1min 17s Mon 2026-09-28 17:00:00 UTC      8min ago sysstat-collect.timer          sysstat-collect.service
+Mon 2026-09-28 17:11:05 UTC 2min 23s Mon 2026-09-28 17:06:05 UTC  2min 36s ago forex-monitor.timer            forex-monitor.service
+Mon 2026-09-28 17:13:24 UTC 4min 42s Mon 2026-09-28 17:08:24 UTC       17s ago scanner-monitor.timer          scanner-monitor.service
+Mon 2026-09-28 17:57:35 UTC    48min Mon 2026-09-28 16:38:16 UTC     30min ago fwupd-refresh.timer            fwupd-refresh.service
+Mon 2026-09-28 21:23:02 UTC 4h 14min Mon 2026-09-28 07:01:56 UTC       10h ago apt-daily.timer                apt-daily.service
+Mon 2026-09-28 22:45:00 UTC 5h 36min Mon 2026-09-28 07:19:55 UTC        9h ago motd-news.timer                motd-news.service
+Tue 2026-09-29 00:00:00 UTC       6h Mon 2026-09-28 00:00:00 UTC       17h ago dpkg-db-backup.timer           dpkg-db-backup.service
+Tue 2026-09-29 00:00:00 UTC       6h Mon 2026-09-28 00:00:00 UTC       17h ago logrotate.timer                logrotate.service
+Tue 2026-09-29 00:07:00 UTC       6h Mon 2026-09-28 00:07:02 UTC       17h ago sysstat-summary.timer          sysstat-summary.service
+Tue 2026-09-29 03:30:00 UTC      10h -                                       - forex-digest.timer             forex-monitor.service
+Tue 2026-09-29 03:30:00 UTC      10h Mon 2026-09-28 03:30:06 UTC       13h ago scanner-digest.timer           scanner-monitor.service
+Tue 2026-09-29 04:22:45 UTC      11h Mon 2026-09-28 01:29:46 UTC       15h ago man-db.timer                   man-db.service
+Tue 2026-09-29 06:26:48 UTC      13h Mon 2026-09-28 06:36:22 UTC       10h ago apt-daily-upgrade.timer        apt-daily-upgrade.service
+Tue 2026-09-29 13:38:30 UTC      20h Mon 2026-09-28 13:38:30 UTC  3h 30min ago update-notifier-download.timer update-notifier-download.service
+Tue 2026-09-29 13:48:36 UTC      20h Mon 2026-09-28 13:48:36 UTC  3h 20min ago systemd-tmpfiles-clean.timer   systemd-tmpfiles-clean.service
+Fri 2026-10-02 17:36:25 UTC   4 days Sun 2026-09-20 08:52:53 UTC             - update-notifier-motd.timer     update-notifier-motd.service
+Sun 2026-10-04 03:10:08 UTC   5 days Sun 2026-09-27 03:10:20 UTC 1 day 13h ago e2scrub_all.timer              e2scrub_all.service
+Mon 2026-10-05 01:02:11 UTC   6 days Mon 2026-09-28 00:27:55 UTC       16h ago fstrim.timer                   fstrim.service
+-                                  - -                                       - apport-autoreport.timer        apport-autoreport.service
+
+### चालू सेवा
+  binance-scanner.service                                    loaded active running Binance Futures Scanner v7 stick
+  forex-scanner.service                                      loaded active running Forex Scanner (biquote feed) - Scanners 1-4
+  lvm2-monitor.service                                       loaded active exited  Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling
+
+### crontab (ubuntu / root)
+(ubuntu: काही नाही)
+(root: काही नाही)
+
+### state (देखरेख)
+/var/lib/forex-monitor:
+total 24
+drwxr-xr-x  2 root root 4096 2026-09-28 11:36 .
+drwxr-xr-x 50 root root 4096 2026-09-28 11:36 ..
+-rw-r--r--  1 root root   11 2026-09-28 11:36 daily.flag
+-rw-r--r--  1 root root 4391 2026-09-28 17:06 monitor.log
+-rw-r--r--  1 root root   14 2026-09-28 17:06 state
+
+/var/lib/v7-monitor:
+total 60
+drwxr-xr-x  2 root root  4096 2026-09-26 11:36 .
+drwxr-xr-x 50 root root  4096 2026-09-28 11:36 ..
+-rw-r--r--  1 root root    11 2026-09-28 03:30 daily.flag
+-rw-r--r--  1 root root 40933 2026-09-28 17:08 monitor.log
+-rw-r--r--  1 root root    14 2026-09-28 17:08 state
+
+### python packages — trading-bot
+aiohappyeyeballs==2.7.1
+aiohttp==3.14.3
+aiosignal==1.4.0
+attrs==26.1.0
+beautifulsoup4==4.15.0
+certifi==2026.7.22
+cffi==2.1.1
+charset-normalizer==3.5.1
+curl_cffi==0.16.3
+dateparser==1.4.3
+frozenlist==1.8.0
+idna==3.20
+lxml==6.1.3
+multidict==6.9.0
+multitasking==0.0.13
+numpy==2.5.3
+pandas==3.0.6
+peewee==4.5.1
+platformdirs==4.11.11
+propcache==0.5.4
+protobuf==7.36.2
+pycparser==3.0
+pycryptodome==3.23.0
+python-dateutil==2.9.0.post0
+python-dotenv==1.2.3
+python_binance==1.0.37
+pytz==2026.3.post1
+regex==2026.9.10
+requests==2.34.2
+six==1.17.0
+soupsieve==2.9.2
+typing_extensions==4.16.0
+tzlocal==5.4.4
+urllib3==2.8.0
+websocket-client==1.9.2
+websockets==17.1
+yarl==1.25.1
+yfinance==1.7.0
+
+### python packages — trading-bot-forex
+certifi==2026.7.22
+charset-normalizer==3.5.1
+idna==3.20
+python-dotenv==1.2.3
+requests==2.34.2
+urllib3==2.8.0
